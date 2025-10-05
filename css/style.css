@@ -1,0 +1,48 @@
+.alert {
+background-color: #DDDFC2;
+border: none;
+color: #134829;
+}
+
+.navbar {
+background-color: #134829;
+}
+
+.nav-link {
+color: #DDDFC2;
+}
+.nav-link:hover {
+color: #2a834f;
+}
+
+.btn {
+background-color: #DDDFC2;
+color: #134829;
+}
+
+.btn:hover {
+background-color: #134829;
+color: #DDDFC2;
+border-color: #DDDFC2;
+}
+
+.offcanvas {
+background-color:#134829;
+}
+
+.navbar-toggler {
+border: none;
+}
+
+.navbar-toggler:focus, .btn-close:focus {
+box-shadow: none;
+}
+
+a {
+color: #DDDFC2;
+}
+
+a:hover {
+color: #2a834f
+;
+}
