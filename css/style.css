@@ -1,3 +1,6 @@
+
+/* NAV */
+
 .alert {
 background-color: #DDDFC2;
 border: none;
@@ -26,6 +29,17 @@ color: #DDDFC2;
 border-color: #DDDFC2;
 }
 
+.btn-primary:hover {
+background-color: #134829;
+color: #DDDFC2;
+}
+
+.btn-primary {
+background-color: #DDDFC2;
+color: #134829;
+border: none;
+}
+
 .offcanvas {
 background-color:#134829;
 }
@@ -45,3 +59,40 @@ color: #DDDFC2;
 a:hover {
 color: #2a834f;
 }
+
+/* HERO */
+
+#hero {
+background: #134829;
+background-image: url(../images/pexels-yesimcolak-33106922.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+color: #DDDFC2;
+height: 700px;
+align-content: center;
+}
+
+.btn-secondary {
+border: none;
+background-color: #729982;
+}
+
+@media (max-width: 576px) {
+
+#hero {
+align-content: start;
+background-position: bottom;
+}
+
+.btn-primary {
+width: 190px;
+}
+
+.btn-secondary {
+width: 125px;
+}
+
+}
+
+ 
